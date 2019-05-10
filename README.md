@@ -26,7 +26,7 @@ By the end of the workshop, you’ll have your own optimized RL model going into
 
 [Deepracer Reward function](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-reward-function-input.html)
 
-[AWS Training course"](https://www.aws.training/learningobject/wbc?id=32143)
+[AWS Training course](https://www.aws.training/learningobject/wbc?id=32143)
 
 [AWS DeepRacer Forum](https://forums.aws.amazon.com/forum.jspa?forumID=318)
 
