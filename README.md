@@ -22,9 +22,9 @@ By the end of the workshop, you’ll have your own optimized RL model going into
 
 ## Resources
 
-[Deepracer Basic Concept](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-basic-concept.html)
+[DeepRacer Basic Concept](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-basic-concept.html)
 
-[Deepracer Reward function](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-reward-function-input.html)
+[DeepRacer Reward function](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-reward-function-input.html)
 
 [AWS Training course](https://www.aws.training/learningobject/wbc?id=32143)
 
