@@ -42,11 +42,11 @@ def reward_function(params):
 
 ### Visual explanation of some of the reward function parameters
 
-![reward_function_parameters_illustration](image/reward_function_parameters_illustration.png)
+![reward_function_parameters_illustration](../image/reward_function_parameters_illustration.png)
 
 ### Visualization of the waypoints at re:invent
 
-![reinventtrack_waypoints](image/reinventtrack_waypoints.png)
+![reinventtrack_waypoints](../image/reinventtrack_waypoints.png)
 
 You can get waypoints by
 
@@ -56,7 +56,7 @@ print(waypoints)
 
 ### Check out CloudWatch logs for the output
 
-![cloudwatch logs](image/cloudwatch_logs.png)
+![cloudwatch logs](../image/cloudwatch_logs.png)
 
 ## Hints
 
