@@ -10,9 +10,9 @@ By the end of the workshop, you’ll have your own optimized RL model going into
 
 [REAio33 workshop](workshops/REAio33/)
 
-[Reward Function Parameters](workshops/REAio33/parameter_illustration.md)
+[Reward Function Parameters Explained](workshops/REAio33/parameter_illustration.md)
 
-[Hyperparameters](workshops/REAio33/algorithm_setting.md)
+[Hyperparameters Explained](workshops/REAio33/algorithm_setting.md)
 
 [lab1 - Model Training](workshops/REAio33/lab1/)
 
