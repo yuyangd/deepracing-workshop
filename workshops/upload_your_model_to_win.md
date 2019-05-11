@@ -21,6 +21,6 @@ rea-as saml REAio bash
 aws s3 cp <player name>.tar.gz s3://reaio33-deepracing/
 ```
 
-4. The model will be processed through a queue as first in first out. You're free to upload as many times as you want at anytime during REAio. The new model will override the old version, before our crew member loading it to the car.
+4. The model will be processed through a queue as first in first out. You're free to upload as many times as you want at anytime during REAio. The new model will **override** the old version, before our crew member loading it to the car. You can rename the model with version number to avoid overriding the model.
 
 5. Our crew member will run the car for 3 laps, the fastest complete lap wins.
