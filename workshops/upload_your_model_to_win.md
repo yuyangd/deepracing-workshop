@@ -18,7 +18,7 @@ Contact our crew member if you have trouble with the tools.
 rea-as saml REAio bash
 
 # upload
-aws s3 cp <player name>.tar.gz s3://reaio33-deepracing/
+aws s3 cp <player name>.tar.gz s3://deepracer-custom-models/
 ```
 
 4. The model will be processed through a queue as first in first out. You're free to upload as many times as you want at anytime during REAio. The new model will **override** the old version, before our crew member loading it to the car. You can rename the model with version number to avoid overriding the model.
