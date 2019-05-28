@@ -18,15 +18,24 @@ A set of batches sampled at random from an experience buffer is called a **train
 
 ## Gradient descent batch size
 
+Determine how many images will be used for training. How many training data to loop through before training the model.
+
 The number of recent vehicle experiences sampled at random from an experience buffer and used for updating the underlying deep-learning neural network weights. Random sampling helps reduce correlations inherent in the input data. Use a larger batch size to promote more stable and smooth updates to the neural network weights, but be aware of the possibility that the training may be longer or slower.
 
 The batch is a subset of an experience buffer that is composed of images captured by the camera mounted on the AWS DeepRacer vehicle and actions taken by the vehicle.
 
 ## Number of epochs
 
+How many times the algorithm will pass through the batch data set before updating the training weights.
+
 The number of passes through the training data to update the neural network weights during gradient descent. The training data corresponds to random samples from the experience buffer. Use a larger number of epochs to promote more stable updates, but expect a slower training. When the batch size is small, you can use a smaller number of epochs.
 
+- You want to increase the number of epochs until the validation accuracy is minimized.
+- Larger number of epochs is acceptable when the batch size is large
+
 ## Learning rate
+
+Controls the speed at which your algorithm learns
 
 During each update, a portion of the new weight can be from the gradient-descent (or ascent) contribution and the rest from the existing weight value. The learning rate controls how much a gradient-descent (or ascent) update contributes to the network weights. Use a higher learning rate to include more gradient-descent contributions for faster training, but be aware of the possibility that the expected reward may not converge if the learning rate is too large.
 
