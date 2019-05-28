@@ -1,4 +1,4 @@
-# Reward Function Parameters
+# Reward Function
 
 In reinforcement learning, the reward function plays a **critical** role in training your models. The reward function is used to incentivize the driving behavior you want the agent to exhibit when using your trained RL model to make driving decisions.
 
